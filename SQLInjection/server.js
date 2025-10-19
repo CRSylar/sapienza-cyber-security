@@ -167,7 +167,7 @@ app.get('/', (req, res) => {
     </form>
     
     <h2>🔍 Esplora la Struttura del Database:</h2>
-    <p><code>GET /users?id=1 UNION SELECT name,sql,1,1,1,1 FROM sqlite_master WHERE type='table'</code></p>
+    <p><code>GET /users?id=1 UNION SELECT name,sql,1,1,1 FROM sqlite_master WHERE type='table'</code></p>
     
     <style>
       body { font-family: Arial, sans-serif; margin: 40px; background: #f5f5f5; }
